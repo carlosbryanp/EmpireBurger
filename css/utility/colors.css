@@ -1,0 +1,47 @@
+:root {
+  --red-l : #F53627;
+  --red : #F43127;
+  --yel : #F59A1B;
+  --green-l : #A1CF67;
+  --green : #00A950;
+  --dark : #141318;
+  --brown : rgba(29, 6, 5, 0.9);
+  --brown-l : #60340B;
+  --brown-xl : #635352;
+}
+
+.red-l {
+  color: var(--red-l);
+}
+
+.red {
+  color: var(--red);
+}
+
+.yel {
+  color: var(--yel);
+}
+
+.green-l {
+  color: var(--green-l);
+}
+
+.green {
+  color: var(--green);
+}
+
+.dark {
+  color: var(--dark); 
+}
+
+.brown {
+  color: var(--brown);
+}
+
+.brown-l {
+  color: var(--brown-l);
+}
+
+.brown-xl {
+  color: var(--brown-xl);
+}

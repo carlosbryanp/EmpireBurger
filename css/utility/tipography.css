@@ -1,0 +1,64 @@
+/* FONT 1 - Lilita One
+FONT 2 - Lato */
+
+.font-1-l-b {
+  font-family: 'Lilita One', sans-serif;
+  font-size: 4.875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.font-1-l {
+  font-family: 'Lilita One', sans-serif;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.font-1-s {
+  font-family: 'Lilita One', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+
+.font-2-l {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.font-2-m,
+.font-2-m-b {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4375rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.font-2-m-b {
+  font-weight: 700;
+}
+
+.font-2-s {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.font-2-xs {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.fw-9 {
+  font-weight: 900;
+}

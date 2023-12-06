@@ -1,0 +1,38 @@
+.container {
+  max-width: 1170px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-whats {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  background-color: var(--yel);
+  padding: 4px 16px;
+  border-radius: 4px;
+  margin-left: 13px;
+  position: relative;
+}
+
+.button-whats::before {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #B50B04;
+  position: absolute;
+  left: -13px;
+}
+
+.button-whats img {
+  width: 24px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--red);
+  border-radius: 5px;
+  color: white;
+}
