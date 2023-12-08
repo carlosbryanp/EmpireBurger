@@ -6,8 +6,10 @@
   --green : #00A950;
   --dark : #141318;
   --brown : rgba(29, 6, 5, 0.9);
+  --brown-d : #3A210B;
   --brown-l : #60340B;
   --brown-xl : #635352;
+  --white-l : rgba(255, 255, 255, 0.90);
 }
 
 .red-l {
@@ -44,4 +46,12 @@
 
 .brown-xl {
   color: var(--brown-xl);
+}
+
+.white-l {
+  color: var(--white-l);
+}
+
+.brown-d {
+  color: var(--brown-d);
 }

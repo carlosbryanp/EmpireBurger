@@ -1,14 +1,13 @@
-.header-bg{
+.header-bg {
   background: url(../../img/banner.jpg) no-repeat;
   background-size: 100%;
-  height: 100%;
 }
-
 
 .nav-bg {
   background: rgba(59, 32, 11, 0.05);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  max-width: 100%;
 }
 
 .header {
@@ -24,6 +23,14 @@
   gap: 5px;
 }
 
+.header-icon img {
+  display: inline-block;
+}
+
+.header-icon a {
+  text-transform: uppercase;
+}
+
 .header-menu {
   display: flex;
   gap: 16px;
@@ -37,4 +44,26 @@
   display: flex;
   align-items: center;
   gap: 13px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .header-bg {
+    background: url('../../img/banner_mobile.jpg') no-repeat; 
+    /* background-size: 100%;  */
+  }
+  .header-menu,
+  .social-media {
+    display: none;
+  }
+  .nav-bg {
+    padding-top: 16px;
+    padding-bottom: 15px;
+  }
+  .menu-icon {
+    display: block;
+  }
 }

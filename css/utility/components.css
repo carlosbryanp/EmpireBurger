@@ -5,6 +5,13 @@
   margin-right: auto;
 }
 
+.container-s {
+  max-width: 970px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button-whats {
   display: inline-flex;
   gap: 8px;
@@ -35,4 +42,10 @@
   background-color: var(--red);
   border-radius: 5px;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 25px
+  }
 }

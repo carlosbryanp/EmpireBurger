@@ -1,6 +1,11 @@
 /* Home */
-@import './home/home.css';
+@import './home/header.css';
 @import './home/introduction.css';
+@import './home/differentials.css';
+@import './home/offer.css';
+@import './home/operation.css';
+@import './home/location.css';
+@import './home/footer.css';
 
 /* Global */
 @import './global/global.css';

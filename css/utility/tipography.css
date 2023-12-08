@@ -15,13 +15,19 @@ FONT 2 - Lato */
   font-weight: 400;
 }
 
+.font-1-sl {
+  font-family: 'Lilita One', sans-serif;
+  font-size: 1.5625rem;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
 .font-1-s {
   font-family: 'Lilita One', sans-serif;
   font-size: 1.25rem;
   line-height: 1.1;
   font-weight: 400;
 }
-
 
 .font-2-l {
   font-family: 'Lato', sans-serif;
@@ -34,7 +40,7 @@ FONT 2 - Lato */
   font-family: 'Lato', sans-serif;
   font-size: 1.4375rem;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .font-2-m-b {
@@ -53,6 +59,13 @@ FONT 2 - Lato */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2;
+}
+
+.font-3-s {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.35;
 }
 
 .fw-7 {
