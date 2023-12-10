@@ -1,8 +1,8 @@
-.introduction {
+.intro {
   margin-top: 114px;
 }
 
-.introduction a {
+.intro a {
   margin-top: 14px;
 }
 
@@ -11,14 +11,14 @@
   border-radius: 5px;
 }
 
-@media (max-width: 430px) {
-  .introduction {
+@media (max-width: 900px) {
+  .intro {
     margin-top: 37px;
   }
-  .introduction p {
+  .intro p {
     font-size: 1.125rem;
   }
-  .introduction h1 {
+  .intro h1 {
     font-size: 3.375rem;
   }
 }

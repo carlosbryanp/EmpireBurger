@@ -1,75 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+  <title>Empire Burguer</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="King Burger - o melhor hamburguer do reino!">
+
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Lilita+One&display=swap" 
   rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Empire Burguer | Home</title>
+
 
 </head>
 <body>
-  <header class="header-bg">
+
+  <header>
       <div class="nav-bg">
         <div class="header container">
           <div class="header-icon">
-            <a href="index.html" class="font-2-l brown"><img src="./img/favicon.svg" alt="Favicon Empire Burger">
+            <a href="index.html" class="font-2-l brown">
+              <img src="./img/favicon.svg" width="30" height="30" alt="Favicon Empire Burger">
             <span class="fw-9">Empire</span> Burger
             </a>
           </div>
     
           <nav aria-label="primary" >
             <ul class="header-menu font-2-s brown-xl">
-              <li><a href="./index">Home</a></li>
+              <li><a class="fw-7" href="./index">Home</a></li>
               <li><a href="#promotion">Promoção</a></li>
               <li><a href="">Cardapio</a></li>
               <li><a href="">Comentario</a></li>
               <li><a href="">Contato</a></li>
             </ul>
           </nav>
-    
+
+          
           <div>
-            <img class="menu-icon" src="./img/icones/menu.svg" alt="">
+            <img class="menu-icon" src="./img/icones/menu.svg" width="30" height="30" alt="Icone menu hamburguer">     
             <ul class="social-media">
-              <li><a href=""><img src="./img/icones/ifood.svg" alt=""></a></li>
-              <li><a href=""><img src="./img/icones/instagram.svg" alt=""></a></li>
-              <li><a class="button-whats font-2-s fw-7" href=""><img src="./img/icones/whatsapp.svg" alt="">Contato</a></li>
+              <li><a href=""><img src="./img/icones/ifood.svg" width="27" height="14" alt="icone ifood branco"></a></li>
+              <li><a href=""><img src="./img/icones/instagram.svg" width="27" height="27"  alt="icone instagram branco"></a></li>
+              <hr>
+              <li><a class="button-whats font-2-s fw-7" href=""><img src="./img/icones/whatsapp.svg" width="24" height="24" alt="icone whatsapp marrom">Contato</a></li>
             </ul>
           </div>
-        </div>
-        
+        </div> 
       </div>
     
-    <div class="introduction container">
-      <p class="font-2-m brown">Uma nova experência!</p>
-      <h1 class="font-1-l-b yel"><span class="brown">King</span> Burger</h1>
-      <p class="font-2-m brown-l">Para quem tem um <span class="apetite fw-9">Apetite de um REI!</span></p>
-      <a class="button font-2-s fw-7" href="">Comprar Agora</a>
-    </div>
+      <div class="intro container">
+        <p class="font-2-m brown fw-7">Uma nova experência!</p>
+        <h1 class="font-1-l-b yel"><span class="brown-intro">King</span> Burger</h1>
+        <p class="font-2-m brown-l">Para quem tem um <span class="apetite fw-9">Apetite de um REI!</span></p>
+        <a class="button font-2-m-b" href="">Comprar Agora</a>
+      </div>
 
-    <div class="differentials-bg container-s">
-      <ul>
-        <li>
-          <img src="./img/icones/burger.svg" alt="">
-          <h3 class="font-1-s brown">ARTESANAL</h3>
-          <p class="font-2-xs brown-xl">Nossas receitas são feitas com todo cuidado</p>
-        </li>
-        <li>
-          <img src="./img/icones/call.svg" alt="">
-          <h3 class="font-1-s brown">ATENDIMENTO</h3>
-          <p class="font-2-xs brown-xl">Totalmente personalizado</p>
-        </li>
-        <li>
-          <img src="./img/icones/delivery.svg" alt="">
-          <h3 class="font-1-s brown">DELIVERY SPEED</h3>
-          <p class="font-2-xs brown-xl">Entregamos menos de 45 minutos</p>
-        </li>
-      </ul>
-    </div>
+      <div class="cards-bg container-s">
+        <ul class="cards">
+          <li>
+            <img src="./img/icones/burger.svg" width="60" height="60" alt="icone hamburguer marrom">
+            <h3 class="font-1-s brown">ARTESANAL</h3>
+            <p class="font-2-xs brown-xl">Nossas receitas são feitas com todo cuidado</p>
+          </li>
+          <li>
+            <img src="./img/icones/call.svg" width="60" height="60" alt="icone headset marrom">
+            <h3 class="font-1-s brown">ATENDIMENTO</h3>
+            <p class="font-2-xs brown-xl">Totalmente personalizado</p>
+          </li>
+          <li>
+            <img src="./img/icones/delivery.svg" width="60" height="60" alt="icone entregador marrom">
+            <h3 class="font-1-s brown">DELIVERY SPEED</h3>
+            <p class="font-2-xs brown-xl">Entregamos menos de 45 minutos</p>
+          </li>
+        </ul>
+      </div>
   </header>
 
   <main id="promotion" class="container">
@@ -78,32 +85,39 @@
 
     <div class="offer">
       <div class="offer-1">
-        <img src="./img/oferta/burger.jpg" alt="">
+        <img src="./img/oferta/burger.jpg" width="770" height="431" alt="oferta 1 combo">
+
         <div class="info">
           <h3 class="font-1-sl white-l">BURGER IMPERIAL+BATATA</h3>
           <span class="font-2-s">250kg</span>
         </div>
+
         <div class="today">
           <span class="font-2-m">Apenas</span>
           <h3 class="font-1-l white-l">HOJE</h3>
         </div>
       </div>
-      <img src="./img/oferta/batata.jpg" alt="">
-      <img src="./img/oferta/sorvete.jpg" alt="">
+
+      <img src="./img/oferta/batata.jpg" width="371" height="201"  alt="oferta 2 batata">
+
+      <img src="./img/oferta/sorvete.jpg" width="371" height="201"  alt="oferta 3 sorvete">
     </div>
   </main>
 
   <section class="container">
     <div class="operation">
       <div class="hours">
-        <img src="./img/icones/clock.svg" alt="">
+        <img src="./img/icones/clock.svg" width="50" height="59" alt="icone relogio">
+
         <div>
           <h3 class="font-1-sl brown">HORÁRIO DE FUNCIONAMENTO</h3>
           <p class="font-2-xs white-l web">Segunda-feira a sexta-feira: 17h00 - 23h00</p>
           <p class="font-2-xs white-l mobile">Segunda a sexta: 17h00 - 23h00</p>
           <p class="font-2-xs white-l">Sabado a Domíngo: 18h00 - 23h00</p>
         </div>
+
       </div>
+
       <div class="follow">
         <p class="font-2-s brown">Não esqueça de marcar a gente no Instagram:</p>
         <h3 class="font-1-sl red">#EMPIREBURGUER </h3>
@@ -114,26 +128,26 @@
   <section class="location">
     <h2 class="font-1-l brown">ONDE FICA NOSSO CASTELO</h2>
     <p class="font-2-xs brown-l">Estaremos de portas abertas para a nossa realeza.</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d926.2502393808944!2d-45.96674483036572!3d-21.780223953385246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca3e138bb16449%3A0x57470a1da12f3974!2sR.%20Jo%C3%A3o%20B%20Ferreira%20-%20Po%C3%A7o%20Fundo%2C%20MG%2C%2037757-000!5e0!3m2!1spt-BR!2sbr!4v1701989064995!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe title="localização king burger" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d926.2502393808944!2d-45.96674483036572!3d-21.780223953385246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca3e138bb16449%3A0x57470a1da12f3974!2sR.%20Jo%C3%A3o%20B%20Ferreira%20-%20Po%C3%A7o%20Fundo%2C%20MG%2C%2037757-000!5e0!3m2!1spt-BR!2sbr!4v1701989064995!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
 
-  <footer class="container">
-    <div class="footer">
+  <footer>
+    <div class="footer container">
       <a href="./index.html" class="font-2-l yel favicon-footer">
-        <img src="./img/favicon-r.svg" alt="">
+        <img src="./img/favicon-r.svg" width="29" height="30" alt="icone empire burger vermelho">
         <span class="fw-9">Empire</span> Burger
       </a>
 
       <ul class="menu-footer font-2-s brown-d">
-        <li><a class="fw-7" href="./index>Home"></a></li>
+        <li><a class="fw-7" href="./index">Home</a></li>
         <li><a href="">Localização</a></li>
         <li><a href="">Cardapio</a></li>
         <li><a href="">Sobre</a></li>
       </ul>
 
       <ul class="social-footer">
-        <li><a href=""><img src="./img/icones/ifood-y.svg" alt=""></a></li>
-        <li><a href=""><img src="./img/icones/instagram-y.svg" alt=""></a></li>
+        <li><a href=""><img src="./img/icones/ifood-y.svg" width="27" height="14"  alt="icone ifood amarelo"></a></li>
+        <li><a href=""><img src="./img/icones/instagram-y.svg" width="27" height="27"  alt="icone instagram amarelo"></a></li>
       </ul>
     </div>
     <p><span class="fw-7">2022 © EmpireBurger.</span> Todos os direitos reservados.</p>

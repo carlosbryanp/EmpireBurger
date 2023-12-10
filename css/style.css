@@ -1,7 +1,7 @@
 /* Home */
 @import './home/header.css';
-@import './home/introduction.css';
-@import './home/differentials.css';
+@import './home/intro.css';
+@import './home/cards.css';
 @import './home/offer.css';
 @import './home/operation.css';
 @import './home/location.css';
@@ -12,7 +12,5 @@
 
 /* Utility */
 @import './utility/colors.css';
-@import './utility/tipography.css';
-
-/* Components */
+@import './utility/fonts.css';
 @import './utility/components.css';

@@ -13,27 +13,12 @@
 }
 
 .button-whats {
-  display: inline-flex;
+  display: flex;
   gap: 8px;
   align-items: center;
   background-color: var(--yel);
   padding: 4px 16px;
   border-radius: 4px;
-  margin-left: 13px;
-  position: relative;
-}
-
-.button-whats::before {
-  content: "";
-  height: 100%;
-  width: 1px;
-  background-color: #B50B04;
-  position: absolute;
-  left: -13px;
-}
-
-.button-whats img {
-  width: 24px;
 }
 
 .button {
@@ -44,8 +29,21 @@
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
+  .button-whats {
+    font-size: 1rem;
+    padding: 2px 8px;
+  }
+}
+
+@media (max-width: 1100px) {
   .container {
     padding: 0 25px
+  }
+}
+
+@media (max-width: 900px) {
+  .container-s {
+    max-width: 700px;
   }
 }

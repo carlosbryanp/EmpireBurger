@@ -6,6 +6,7 @@
   --green : #00A950;
   --dark : #141318;
   --brown : rgba(29, 6, 5, 0.9);
+  --brown-intro : #3B200B;
   --brown-d : #3A210B;
   --brown-l : #60340B;
   --brown-xl : #635352;
@@ -54,4 +55,8 @@
 
 .brown-d {
   color: var(--brown-d);
+}
+
+.brown-intro {
+  color: var(--brown-intro);
 }
