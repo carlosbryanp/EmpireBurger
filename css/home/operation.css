@@ -43,7 +43,7 @@
 @media (max-width: 900px) {
   .operation {
     grid-template-columns: 1fr;
-    justify-content: center;
+    place-items: center;
   }
   .hours {
     max-width: max-content;
