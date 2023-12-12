@@ -29,6 +29,14 @@
   color: white;
 }
 
+.button-order {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: white;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
 @media (max-width: 1100px) {
   .button-whats {
     font-size: 1rem;

@@ -1,0 +1,102 @@
+.service {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 33px;
+  position: relative;
+}
+
+.service::after{
+  content: "";
+  background-color: rgba(29, 6, 5, 0.15);
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.service-bg {
+  padding-top: 72px;
+  position: relative;
+  max-width: 100%;
+}
+
+.service-bg::after{
+  content: "";
+  background-color: rgba(250, 226, 203, 0.90);
+  border-radius: 35px 154.077px 154.077px 35px;
+  height: 308px;
+  width: 570px;
+  position: absolute;
+  bottom: 100px;
+  z-index: 1;
+}
+
+.service-bg img {
+  margin-left: 41px;
+  position: relative;
+  z-index: 2;
+}
+
+.service-content {
+  padding-top: 248px;
+  padding-bottom: 172px;
+}
+
+.service-content p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 35ch;
+}
+
+@media (max-width: 1150px) {
+  .service {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .service-bg,
+  .service-content {
+    margin-left: 150px;
+  }
+  .service-bg::after {
+    bottom: 0px;
+  }
+  .service-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 750px) {
+  .service-bg,
+  .service-content {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .service-bg {
+    padding-top: 48px;
+  }
+  
+  .service-bg::after {
+    height: 204px;
+    width: 378px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .service-bg img{
+    margin-left: 0px;
+  }
+  .service-content {
+    padding-top: 0px;
+    padding-bottom: 64px;
+  }
+  .service-content h2 {
+    font-size: 1.5625rem;
+  }
+  .service-content p {
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
