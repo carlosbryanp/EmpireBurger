@@ -10,6 +10,7 @@
   --brown-d : #3A210B;
   --brown-l : #60340B;
   --brown-xl : #635352;
+  --brown-xxl : #FAE4D0;
   --white-l : rgba(255, 255, 255, 0.90);
 }
 
@@ -41,12 +42,20 @@
   color: var(--brown);
 }
 
+.brown-intro {
+  color: var(--brown-intro);
+}
+
 .brown-l {
   color: var(--brown-l);
 }
 
 .brown-xl {
   color: var(--brown-xl);
+}
+
+.brown-xxl {
+  color: var(--brown-xxl);
 }
 
 .white-l {

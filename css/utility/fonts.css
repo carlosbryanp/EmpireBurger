@@ -1,8 +1,14 @@
 /* FONT 1 - Lilita One
 FONT 2 - Lato */
 
+
 .font-1-l-b {
   font: 400 4.875rem 'Lilita One', sans-serif;
+  text-transform: uppercase;
+}
+
+.font-1-ll {
+  font: 400 2.5625rem/1.1 'Lilita One', sans-serif;
   text-transform: uppercase;
 }
 
