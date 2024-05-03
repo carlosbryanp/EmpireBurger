@@ -6,12 +6,12 @@
 
 .delivery-bg {
   padding-top: 128px;
-  position: relative
+  position: relative;
 }
 
-.delivery-bg::after{
+.delivery-bg::after {
   content: "";
-  background-color: rgba(250, 226, 203, 0.90);
+  background-color: rgba(250, 226, 203, 0.9);
   border-radius: 35px 154.077px 154.077px 35px;
   height: 308px;
   width: 570px;
@@ -50,14 +50,14 @@
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 23px;
-  box-shadow: 0px 4px 40px 0px rgba(178, 155, 132, 0.50);
+  box-shadow: 0px 4px 40px 0px rgba(178, 155, 132, 0.5);
 }
 
 .delivery-items li::before {
   content: "";
   width: 1px;
   height: 45px;
-  background-color: rgba(29, 6, 5, 0.40);
+  background-color: rgba(29, 6, 5, 0.4);
   position: absolute;
   left: 100px;
 }
@@ -95,7 +95,7 @@
   content: "";
   width: 1px;
   height: 100%;
-  background-color: rgba(29, 6, 5, 0.40);
+  background-color: rgba(29, 6, 5, 0.4);
   position: absolute;
   left: -15px;
 }
@@ -138,7 +138,7 @@
   .delivery-items {
     place-items: center;
   }
-  .delivery-items li{
+  .delivery-items li {
     width: 100%;
   }
   .order {

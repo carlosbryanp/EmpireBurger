@@ -1,17 +1,17 @@
 :root {
-  --red-l : #F53627;
-  --red : #F43127;
-  --yel : #F59A1B;
-  --green-l : #A1CF67;
-  --green : #00A950;
-  --dark : #141318;
-  --brown : rgba(29, 6, 5, 0.9);
-  --brown-intro : #3B200B;
-  --brown-d : #3A210B;
-  --brown-l : #60340B;
-  --brown-xl : #635352;
-  --brown-xxl : #FAE4D0;
-  --white-l : rgba(255, 255, 255, 0.90);
+  --red-l: #f53627;
+  --red: #f43127;
+  --yel: #f59a1b;
+  --green-l: #a1cf67;
+  --green: #00a950;
+  --dark: #141318;
+  --brown: rgba(29, 6, 5, 0.9);
+  --brown-intro: #3b200b;
+  --brown-d: #3a210b;
+  --brown-l: #60340b;
+  --brown-xl: #635352;
+  --brown-xxl: #fae4d0;
+  --white-l: rgba(255, 255, 255, 0.9);
 }
 
 .red-l {
@@ -35,7 +35,7 @@
 }
 
 .dark {
-  color: var(--dark); 
+  color: var(--dark);
 }
 
 .brown {

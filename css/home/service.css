@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.service::after{
+.service::after {
   content: "";
   background-color: rgba(29, 6, 5, 0.15);
   height: 1px;
@@ -20,9 +20,9 @@
   max-width: 100%;
 }
 
-.service-bg::after{
+.service-bg::after {
   content: "";
-  background-color: rgba(250, 226, 203, 0.90);
+  background-color: rgba(250, 226, 203, 0.9);
   border-radius: 35px 154.077px 154.077px 35px;
   height: 308px;
   width: 570px;
@@ -77,14 +77,14 @@
   .service-bg {
     padding-top: 48px;
   }
-  
+
   .service-bg::after {
     height: 204px;
     width: 378px;
     bottom: 0px;
     left: 0px;
   }
-  .service-bg img{
+  .service-bg img {
     margin-left: 0px;
   }
   .service-content {

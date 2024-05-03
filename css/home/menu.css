@@ -28,15 +28,12 @@
 }
 
 .menu-content {
-  padding: 71px 0 71px 0px;
+  padding: 71px 300px 71px 32px;
   background-color: var(--brown-intro);
 }
 
 .menu-content h3 {
   text-transform: uppercase;
-  margin-bottom: 15px;
-  margin-left: 31px;
-
   display: flex;
   flex-direction: column;
 }
@@ -46,21 +43,34 @@
 }
 
 .menu-item {
-  max-width: 100vw;
+  margin-top: 16px;
   margin-bottom: 32px;
-  margin-left: 31px;
-} 
+}
+
+.menu-item h4 {
+  white-space: nowrap;
+}
+
+.menu-item > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  gap: 10px;
+}
+
+.menu-item .trace {
+  content: "";
+  border-bottom: 3px dotted;
+  width: 100%;
+}
 
 .menu-item:last-child {
   margin-bottom: 0px;
 }
 
-.menu-item h4 {
-  margin-bottom: 4px;
-}
-
 .menu-item p {
   max-width: 50ch;
+  line-height: 1.4;
 }
 
 @media (max-width: 1200px) {
@@ -73,12 +83,10 @@
 @media (max-width: 1100px) {
   .menu {
     grid-template-columns: 1fr;
-    /* justify-content: center; */
-    /* place-items: center; */
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 560px) {
   .menu-bg {
     background: url(../../img/oferta/menu-mobile.jpg);
     padding-top: 39px;
@@ -86,9 +94,7 @@
     justify-content: left;
   }
   .menu-content {
-    padding-top: 54px;
-    padding-bottom: 47px;
-    margin-left: 0px;
+    padding: 54px 26px 47px 24px;
   }
   .menu-intro h2 {
     font-size: 1.5625rem;
@@ -99,15 +105,12 @@
   }
   .menu-content h3 {
     display: none;
-    margin-left: 25px;
   }
   #espec {
     display: block;
   }
   .menu-item {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
   .menu-item p {
     max-width: 45ch;

@@ -1,19 +1,20 @@
 /* Home */
-@import './home/header.css';
-@import './home/intro.css';
-@import './home/cards.css';
-@import './home/offer.css';
-@import './home/operation.css';
-@import './home/menu.css';
-@import './home/location.css';
-@import './home/service.css';
-@import './home/delivery.css';
-@import './home/footer.css';
+@import "./home/header.css";
+@import "./home/intro.css";
+@import "./home/cards.css";
+@import "./home/offer.css";
+@import "./home/operation.css";
+@import "./home/menu.css";
+@import "./home/location.css";
+@import "./home/service.css";
+@import "./home/delivery.css";
+@import "./home/footer.css";
+@import "./home/instagram.css";
 
 /* Global */
-@import './global/global.css';
+@import "./global/global.css";
 
 /* Utility */
-@import './utility/colors.css';
-@import './utility/fonts.css';
-@import './utility/components.css';
+@import "./utility/colors.css";
+@import "./utility/fonts.css";
+@import "./utility/components.css";

@@ -39,17 +39,17 @@ main p {
   position: absolute;
   top: 12px;
   left: 17px;
-} 
+}
 
 .today {
   position: absolute;
   right: 25px;
   bottom: 25px;
-} 
+}
 
 .today h3 {
   font-size: 2.625rem;
-  line-height: .6;
+  line-height: 0.6;
   margin-top: 6px;
 }
 
@@ -86,7 +86,7 @@ main p {
     bottom: 16px;
     right: 13px;
     text-align: right;
-  } 
+  }
   .today h3 {
     font-size: 1.25rem;
   }

@@ -17,7 +17,7 @@ iframe {
 
 @media (max-width: 430px) {
   .location h2 {
-  font-size: 25px;
+    font-size: 25px;
   }
   .location {
     margin-top: 60px;

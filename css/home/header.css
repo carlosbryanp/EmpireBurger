@@ -38,7 +38,7 @@ header {
 
 .header-menu li:hover {
   font-weight: 700;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .social-media {
@@ -48,7 +48,7 @@ header {
 }
 
 .social-media hr {
-  border-left: 1px solid #B50B04;
+  border-left: 1px solid #b50b04;
   height: 47px;
 }
 
@@ -77,18 +77,17 @@ header {
     display: none;
   }
   .menu-icon {
-    display: block;    
+    display: block;
   }
 }
 
 @media (max-width: 430px) {
   header {
-    background: url('../../img/banner_mobile.jpg') no-repeat; 
+    background: url("../../img/banner_mobile.jpg") no-repeat;
     /* background-size: 100%;  */
   }
   .header {
     justify-content: space-between;
-
   }
   /* .header-menu,
   .social-media {
