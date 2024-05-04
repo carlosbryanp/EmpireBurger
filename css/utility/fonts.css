@@ -48,6 +48,10 @@ FONT 2 - Lato */
   font: 400 1rem/1.2 "Lato", sans-serif;
 }
 
+.font-2-ss {
+  font: 400 0.75rem/1.1 "Lato", sans-serif;
+}
+
 .font-3-s {
   font: 400 0.875rem/1.35 "Inter", sans-serif;
 }
