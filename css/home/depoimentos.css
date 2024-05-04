@@ -1,0 +1,67 @@
+.depoimentos {
+  margin-top: 124px;
+}
+
+.depoimentos h3 {
+  margin-bottom: 4px;
+}
+
+.carrousel {
+  display: flex;
+  padding: 8px;
+  gap: 12px;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.carrousel::-webkit-scrollbar {
+  height: 10px;
+}
+
+.carrousel::-webkit-scrollbar-thumb {
+  background: #fb5;
+  border-radius: 4px;
+  border-top: 5px solid transparent;
+}
+
+.depoimentos-content {
+  background: var(--white-l);
+  max-width: 370px;
+  min-width: 370px;
+  border-radius: 10px;
+  margin-top: 16px;
+  padding: 12px 19px 22px 17px;
+  box-shadow: 0px 0px 10px rgba(60, 35, 13, 0.3);
+}
+
+.depoimentos-content p {
+  margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.depoimento-user {
+  display: grid;
+  grid-template-columns: 50px 120px;
+  column-gap: 8px;
+}
+
+.depoimento-user img {
+  grid-row: 1/3;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.depoimento-user {
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .depoimentos-content {
+    min-width: 320px;
+  }
+}

@@ -36,6 +36,7 @@
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
 }
 
 #espec {
@@ -49,6 +50,7 @@
 
 .menu-item h4 {
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .menu-item > div {
@@ -84,6 +86,9 @@
   .menu {
     grid-template-columns: 1fr;
   }
+  .menu-content {
+    padding-right: 150px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -101,7 +106,7 @@
     max-width: 20ch;
   }
   .menu-intro p {
-    font-size: 0.875;
+    font-size: 0.875rem;
   }
   .menu-content h3 {
     display: none;
@@ -114,5 +119,6 @@
   }
   .menu-item p {
     max-width: 45ch;
+    font-size: 0.875rem;
   }
 }
